@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.detail.DetailActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="20sp">
+        <TextView
+            android:id="@+id/Judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_story"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center_horizontal"
+            android:background="@drawable/round_img"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            />
+        <RelativeLayout
+            android:id="@+id/rlJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_img"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                >
+                <ImageView
+                    android:id="@+id/hasilgambardetail"
+                    android:background="#ffff"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ryo_yamada"
+                    android:contentDescription="@string/photo"
+                    />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_cardview"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/corner_title_latar"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_title_latar"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/desk"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/pb_hero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_mohon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_text"
+            android:layout_gravity="center"
+            android:textColor="#4F709C"
+            android:textSize="15sp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

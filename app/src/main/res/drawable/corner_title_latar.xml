@@ -1,0 +1,22 @@
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle"
+    tools:ignore="MissingDefaultResource">
+
+    <solid android:color="#EDD9C8" />
+
+
+
+    <padding
+        android:left="5dp"
+        android:top="15dp"
+        android:right="5dp"
+        android:bottom="15dp"   >
+    </padding>
+
+    <corners
+        android:radius="16dp"   >
+    </corners>
+
+</shape>

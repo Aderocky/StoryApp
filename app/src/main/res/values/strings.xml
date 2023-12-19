@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StoryApp_Ade</string>
+    <string name="title_welcome_page">Welcome to DekyRaa Story! </string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="detail_story">Detail Data Story</string>
+    <string name="desk">Description</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="log_out">Log Out</string>
+    <string name="language">Language</string>
+    <string name="tambah">Add Data</string>
+    <string name="sip">Sipppp</string>
+    <string name="photo">Photo</string>
+    <string name="maps">Maps</string>
+    <string name="isiDulu">Fill first</string>
+    <string name="retry">Retry</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="permit_loc">Allow current location</string>
+    <string name="empty_image_warning">Please insert an image file first.</string>
+    <string name="wrong_email_popup">Enter the correct email</string>
+    <string name="wrong_pass_popup">Enter password more than 8</string>
+    <string name="password">Password</string>
+    <string name="loading_text">Please wait a moment</string>
+    <string name="message_login_page">Enter your data first. ....</string>
+    <string name="title_login_page">Come join us here</string>
+    <string name="title_signup_page">Complete your personal data below</string>
+    <string name="message_welcome_page">Come join the others to see your
+        stories or create your own wibu stories, every wibu story is on Dekyraa Story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

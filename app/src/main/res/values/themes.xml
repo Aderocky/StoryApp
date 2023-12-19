@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoryApp_Ade" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/DarkBlue</item>
+        <item name="android:statusBarColor">@color/DarkBlue</item>
+        <item name="android:navigationBarColor">@color/DarkBlue</item>
+
+    </style>
+
+    <style name="Theme.StoryApp_Ade" parent="Base.Theme.StoryApp_Ade" />
+</resources>

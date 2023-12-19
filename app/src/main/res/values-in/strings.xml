@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp_Ade</string>
+    <string name="title_welcome_page">Selamat datang di DekyRaa Story!</string>
+    <string name="login">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="detail_story">Detail Data Story</string>
+    <string name="desk">Deskripsi</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="log_out">Log Out</string>
+    <string name="language">Language</string>
+    <string name="tambah">Tambah Data</string>
+    <string name="sip">Done</string>
+    <string name="isiDulu">Isi Dulu</string>
+    <string name="maps">Peta</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Coba lagi</string>
+    <string name="permit_loc">Izinkan lokasi saat ini</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="wrong_email_popup">Masukkan email yang benar</string>
+    <string name="wrong_pass_popup">Masukkan password lebih dari 8</string>
+    <string name="password">Password</string>
+    <string name="photo">Photo</string>
+    <string name="loading_text">Mohon tunggu sebentar</string>
+    <string name="message_login_page">Masukkan data kamu dulu yaaaa....</string>
+    <string name="title_login_page">Ayo gabung bersama kami sini</string>
+    <string name="title_signup_page">Lengkapi data wibumu di bawah ini ya</string>
+    <string name="message_welcome_page">Ayo bergabung dengan yang lain untuk melihat
+        story atau membuat story wibu kalian , setiap story wibu ada di Dekyraa Story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
